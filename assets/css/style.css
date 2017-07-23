@@ -6,8 +6,9 @@ div.container {
 }
 
 .verticalLine {
-	    border-left: thick solid #4aaaa5;
+	     
 	    padding-right: 20px;
+	    border-right: thick solid #4aaaa5;
 }
 
 body {
@@ -75,7 +76,7 @@ footer {
 		width: 310px;
 		padding: 10px;
 		margin-top: 10px;
-		margin-left: 120px;
+		margin-left: 80px;
 		margin-right: 0px;
 		float: left;
 		border-style: solid;
@@ -118,11 +119,12 @@ a:hover {
 		display: inline-block;
 		float: left;
 		height: 100%;
+		margin-left: 100px;
 }
 
 
 .nav{
-		padding-top: 10px;
+		
 		float: right;
 		display: inline-block;
 		overflow: auto;
@@ -191,28 +193,41 @@ h4 {
 }
 
 .box {
-		width: 50%;
-		padding-left: 50px;
+		width: 100%;
+		padding-left: 10px;
 		float: left;
 		overflow: auto;
 }
 #b1 { 
 	float: left;
-	margin-right: 20px;
-	position: absolute;
+	margin-right: 30px;
+	
+	background-image: url("http://lorempixel.com/200/200/");
+	height: 100px;
+	width: 150px;
 }
 
 #b2 {
 	float:left;
 	position: relative;
+	background-image: url("http://lorempixel.com/200/200/");
+	height: 100px;
+	width: 150px;
 }
 
 #b3 {
 	float: left;
 	margin-right: 20px;
 	position: relative;
+	background-image: url("http://lorempixel.com/200/200/");
+	height: 100px;
+	width: 150px;
 }
 
 #b4 {
 	float: left;
+	background-image: url("http://lorempixel.com/200/200/");
+	position: relative;
+	height: 100px;
+	width: 150px;
 }
